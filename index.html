@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+       
+  }
+        .loghead{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            translate: 0 -50%;
+        }
+        .loghead li{
+            display: inline-block;
+            list-style: none;
+            color: white;
+            text-transform: uppercase;
+            padding: 16px 10px;
+        }
+        *{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    padding: 70px;
+}
+
+.quy{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom ,rgba(126, 213, 111, 0.6), rgba(40,180,131,0.6)) ,
+     url("https://niemvuilaptrinh.ams3.cdn.digitaloceanspaces.com/thu-hanh-tao-website/du-an-web.jpg");
+    background-size: cover;
+    background-position: bottom;
+      
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.logo img{
+    height: 10px;
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading{
+    color: #fff;
+    text-transform: uppercase;
+
+    backface-visibility: hidden;
+    margin-bottom: 60px;
+}
+
+.btn:link,
+.btn-visited{
+    text-decoration: none;
+    padding: 15px 40px;
+    display:inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+
+}
+.btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.btn:active{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.btn-white{
+    background-color: #fff;
+    color: #777;
+}
+
+.vo{
+            width: 100%;
+            height: 65px;
+            background-color: rgb(181, 239, 239);
+            position: relative;
+}
+.mai li{
+            display: inline-block;
+            list-style: none;
+            color: rgb(5, 5, 5);
+            text-transform: uppercase;
+            padding: 16px 10px;
+            text-align: right;
+
+}
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .col-25{
+            width: 25%;
+            float: left;
+        }
+        .prod{
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+            margin: 5px;
+            padding: 5px;
+            text-align: center; 
+            position: relative;
+        }
+        .prod .name{
+            font-variant: small-caps;
+            color: orangered;
+        }
+        .prod .price{
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+            font-family: Impact;
+            font-size: 25px;
+            color: orangered;
+        }
+        .prod .icons{
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            width: 25px;
+        }
+        .prod .new-icon{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .links h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 15px;
+ }
+.links h2::before{
+     content: '';
+     position: absolute;
+     bottom: -5px;
+     left: 0;
+     width: 50px;
+     height: 2px;
+     background: #f00;
+ }
+.links{
+    position: relative;
+    width: 25%;
+ }
+ 
+ .links ul li a{
+     color: #999;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+
+        
+
+ footer{     
+     position: relative;
+     width: 100%;
+     height: 50%;
+     padding: 50px 100px;
+     background: rgb(123, 242, 242);
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     
+ }
+ .links h2{
+     position: relative;
+     color: #fff;
+     font-weight: 500;
+     margin-bottom: 25px;
+ }
+
+.links{
+    position: relative;
+    width: 25%;
+ }
+ 
+ .links ul li a{
+     color: #000000;
+     text-decoration: none;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+ .text{
+    float: left;
+ }
+.noi-dung.links h2{
+text-align: left;
+color: #000000;
+}
+.note {
+          position:relative;
+          width:480px;
+          padding:1em 1.5em;
+          margin:2em auto;
+          color:#fff;
+          background:#97C02F;
+          overflow:hidden;
+          margin-top: -30%;
+          margin-left: 50.8%;
+      }
+
+      .note:before {
+          content:"";
+          position:absolute;
+          top:0;
+          right:0;
+          border-width:0 16px 16px 0; 
+          border-style:solid;
+          border-color:#fff #fff #658E15 #658E15; 
+          background:#658E15; 
+      }
+      .mai ul li:hover{
+        color: #f00;
+        cursor: pointer;
+      }
+
+</style>
+<body>
+    <div class="vo">            
+        <div class="mai" > 
+                <ul>
+        <img src="/img/bxs-home.svg" alt="">
+            <a href="http://127.0.0.1:5500/pages/trangconasm7.html"><li> tin tức  </li></a>
+           <a href="http://127.0.0.1:5500/pages/trangcon2.html"><li> bán hàng</li></a>
+           <a href="http://127.0.0.1:5500/pages/trangcon3.html"><li> Điện Thoại</li></a> 
+            <li> đời sống </li></a>
+            <li> Sức khỏe </li></a>
+            <li> Giới trẻ </li></a>
+            <li> Giáo dục </li></a>
+            <li> du lịch </li></a>
+            <li> Giải trí </li></a>
+            
+                </ul>
+        </div>
+    </div>
+
+  <header>
+    <div class="quy">
+        <div class="logo">
+            <img  src="https://niemvuilaptrinh.ams3.cdn.digitaloceanspaces.com/thu-hanh-tao-website/Niem_Vui_Lap_Trinh-removebg-preview.png" alt="Logo của website">
+        </div>
+
+        <div class="container">
+            <h1 class="heading">
+                <span class="heading-title">Du Lịch</span>
+                <span class="heading-sub">Đi đâu không quan trọng, quan trọng là được đi cùng nhau.</span>
+            </h1>
+            <a href="#" class="btn btn-white">Khám Phá Ngay</a>
+        </div>
+        
+    </div>  
+    
+    
+<br><br>
+<h2> Một số món ăn Đặc sản của Hội an và Đà Lạt </h2>
+<hr>
+
+<div class="col-25">
+    <div class="prod">
+        <div class="name">
+            Dâu Tây Đà ạt
+        </div>
+        <img src="./img/top-10-dia-chi-mua-dau-tay-ngon-nhat-da-lat-11-1634698408.jpg" alt="hình ảnh" width="80%">
+        <div class="price">
+            
+        </div>
+        <div class="icons">
+            <img src="./img/images.jpg" alt="" width="30px">
+            <img src="./img/pngtree-purple-letter-with-heart-png-image_2556166.jpg" alt="" width="20px">
+            <img src="./img/tải xuống (1).jpg" alt="" width="20px">
+        </div>
+        <img src="./img/new.png" alt="" width="40px" class="new-icon">
+    </div>
+</div>
+<div class="col-25">
+    <div class="prod">
+        <div class="name">
+           Hồng Treo Gió Đà Lạt
+        </div>
+       <img src="./img/hong-treo-da-lat.jpg" alt=" hình ảnh " width="75%">
+        <div class="price">
+         
+        </div>
+        <div class="icons">
+            <img src="./img/images.jpg" alt="" width="30px">
+            <img src="./img/pngtree-purple-letter-with-heart-png-image_2556166.jpg" alt="" width="20px">
+            <img src="./img/tải xuống (1).jpg" alt="" width="20px">
+        </div>
+        <img src="/img/new.png" alt="" width="40px" class="new-icon">
+    </div>
+</div>
+<div class="col-25">
+    <div class="prod">
+        <div class="name">
+            Đặc sản hội an
+        </div>
+       <img src="./img/banhxeo.jpg" alt="hình ảnh" width="90%"></a>
+        <div class="price">
+           
+        </div>
+        <div class="icons">
+            <img src="./img/images.jpg" alt="" width="30px">
+            <img src="./img/pngtree-purple-letter-with-heart-png-image_2556166.jpg" alt="" width="20px">
+            <img src="./img/tải xuống (1).jpg" alt="" width="20px">
+        </div>
+        <img src="./img/new.png" alt="" width="40px" class="new-icon">
+    </div>
+</div>
+    
+<div class="col-25">
+    <div class="prod">
+        <div class="name">
+            Đặc sản hội an
+        </div>
+       <img src="/img/thatlon.jpg" alt="hình ảnh" width="55%">
+        <div class="price">
+            
+        </div>
+        <div class="icons">
+            <img src="./img/images.jpg" alt="" width="30px">
+            <img src="./img/pngtree-purple-letter-with-heart-png-image_2556166.jpg" alt="" width="20px">
+            <img src="./img/tải xuống (1).jpg" alt="" width="20px">
+        </div>
+        <img src="./img/new.png" alt="" width="40px" class="new-icon">
+    </div>
+</div>
+
+
+<iframe width="1360" height="415" src="https://www.youtube.com/embed/qKh14lu59m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+        <h2> Cây Thông Cô Đơn </h2>
+    <img src="./img/rung-thong-da-lat-7.jpg" alt="">
+
+
+    <div class="note">
+        <p>Nếu bạn đang muốn tìm một nơi nào đó để chill cùng người yêu. Bạn bè thì cây thông cô đơn là một trong những sự lựa chọn hàng đầu của bạn. Vì cây thông cô đơn không chỉ nổi tiếng vì cái tên mà còn vì danh lam thắng cảnh ở đây rất  đẹp và yên bình. Bên cạnh đó là bầu không khí se se lạnh của Đà Lạt khung cảnh đó khiến bạn và người yêu bạn. Hay những người bạn thân cùng nhau thư giãn đi những căng thẳng lo âu trong công việc cuộc sống hằng ngày. Và có thêm kỉ niệm đẹp về tuổi thanh xuân rực rỡ của mình.   </p>
+        <p></p>
+    </div>
+
+       <footer>
+    <div class="noi-dung links">
+        <h2>Đường Dẫn</h2>
+        <ul>
+            <li>Trang Chủ</a></li>
+            <li>Về Chúng Tôi</a></li>
+            <li>Thông Tin Liên Lạc</a></li>
+            <li>Dịch Vụ</a></li>
+            <li>Điều Kiện Chính Sách</a></li>
+        </ul>
+    </div>
+    
+</footer>
+
+</body>
+</html>
